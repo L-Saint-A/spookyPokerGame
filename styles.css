@@ -48,13 +48,12 @@ button {
     height: 315.7px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .card span {
     color: #9f9f9f;
     display: flexbox;
-    margin: 0 auto;
-    font-size: 2rem;
+    margin: 104px auto;
+    font-size: 2.4rem;
     font-family: 'Press Start 2P', cursive;
 }
 .fas {
@@ -66,6 +65,7 @@ button {
 footer {
     display: flex;
     justify-content: center;
+    padding: 22px 0;
 }
 h3 {
     color: rgb(112, 112, 112);
