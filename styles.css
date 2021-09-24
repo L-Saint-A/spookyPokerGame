@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: rgb(197, 195, 55);
+    font-style: normal;
+    font-family: 'Rye', cursive;
+    font-size: 8vh;
+
+}
+div  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons {
+    justify-content: space-around;
+}
+button {
+    margin-top: 50px;
+    border: 2px black solid;
+    font-family: 'Rye', cursive;
+    font-size: 4vh;
+    border-radius: 10px;
+    padding: 12px 22px 12px 22px;
+}
+h3 {
+    color: rgb(112, 112, 112);
+    height: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
