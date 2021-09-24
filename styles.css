@@ -16,18 +16,24 @@ body{
     width: 85%;
     margin: 0 auto;
 }
+header {
+    text-align: center;
+}
 h1 {
-    color: #ffcf40;
+    color: #ffbf00;
     font-weight: 100;
     font-family: 'Rye', cursive;
     font-size: 4.4rem;
 }
 button {
     margin-top: 50px;
+    background: linear-gradient(180deg, rgba(166,124,0,1) 48%, rgba(255,220,115,1) 100%);;
+    border-radius: 50%;
     border: 2px black solid;
     font-family: 'Rye', cursive;
     font-size: 4vh;
-    border-radius: 10px;
+    border-radius: 50%;
+    height: 128px;
     padding: 12px 22px 12px 22px;
 }
 .playArea {
@@ -36,15 +42,24 @@ button {
     align-items: center;
 }
 .card {
-    border: 10px solid #ffcf40;
-    background-color: #35654d;
+    border: 10px solid #ffbf00;
     padding: 12px 20px;
     width: 1190px;
     height: 315.7px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
+.card span {
+    color: hotpink;
+}
+.playCard {
+    width: 100px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
 h3 {
     color: rgb(112, 112, 112);
     height: 2vh;
