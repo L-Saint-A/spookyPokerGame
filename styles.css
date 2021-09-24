@@ -26,15 +26,15 @@ h1 {
     font-size: 4.4rem;
 }
 button {
-    margin-top: 50px;
-    background: linear-gradient(180deg, rgba(166,124,0,1) 48%, rgba(255,220,115,1) 100%);;
+    background: linear-gradient(180deg, rgba(246,200,62,1) 8%, rgba(236,185,33,1) 50%, rgba(191,155,48,1) 92%);
     border-radius: 50%;
-    border: 2px black solid;
     font-family: 'Rye', cursive;
-    font-size: 4vh;
+    font-size: 30px;
     border-radius: 50%;
     height: 128px;
-    padding: 12px 22px 12px 22px;
+    width: 128px;
+    text-align: center;
+    color: linear-gradient(5deg, rgba(246,200,62,1) 8%, rgba(236,185,33,1) 50%, rgba(191,155,48,1) 92%);
 }
 .playArea {
     display: flex;
@@ -51,7 +51,14 @@ button {
     align-items: center;
 }
 .card span {
-    color: hotpink;
+    color: #9f9f9f;
+    display: flexbox;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: 'Press Start 2P', cursive;
+}
+.fas {
+    padding-bottom: 2px;
 }
 .playCard {
     width: 100px;
