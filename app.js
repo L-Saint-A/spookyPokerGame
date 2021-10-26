@@ -3,7 +3,7 @@ const app ={};
 
 app.getSomething = function(){
     $.ajax({
-        url: "http://deckofcardsapi.com/api/deck/new/draw/?count=5",
+        url: "https://deckofcardsapi.com/api/deck/new/draw/?count=5",
         method: "GET",
         datatype: "JSON"
     }).then(function(result){
