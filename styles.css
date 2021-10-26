@@ -25,6 +25,18 @@ h1 {
     font-family: 'Rye', cursive;
     font-size: 4.4rem;
 }
+
+.opponent {
+    display: flex;
+    height: 40vh;
+    background-image: url(./assets/spookySkel.png);
+    background-repeat: no-repeat;
+}
+.speech {
+    color: hotpink;
+    font-size: 22px;
+}
+
 button {
     background: linear-gradient(180deg, rgba(246,200,62,1) 8%, rgba(236,185,33,1) 50%, rgba(191,155,48,1) 92%);
     font-family: 'Press Start 2P';

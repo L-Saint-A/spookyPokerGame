@@ -25,8 +25,8 @@ app.getSomething = function(){
 
     $('.playHand').on('click', function(){
         const html1 = `
-            <h1>You Lose!
-            HAHAHAHAHAHAHA</h1>
+            < class="">You Lose!
+            HAHAHAHAHAHAHA</p>
         `
         $('.card').empty();
         $('h1').replaceWith(html1);
